@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500;600;700;800&family=Open+Sans:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap');
+
+body {
+  font-family: 'Onest', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  z-index: 10001 !important;
+}
+
+.btn-primary {
+  @apply px-7 py-2 bg-Primary text-white rounded hover:bg-Secondary transition-all duration-300 hover:-translate-y-2;
+}
