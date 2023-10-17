@@ -30,11 +30,14 @@ function Services() {
                     </p>
                 </div>
                 {/* cards */}
-                <div>
+                <div className='mt-14 mb-10 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12'>
                     {
-                        services.map(service => <div key={service.id}>
+                        services.map(service => <div key={service.id} className='px-4 py-8 text-center md:w-[300px] mb-10
+                        mx-auto md:h-80 rounded-md shadow cursor-pointer hover:translate-y-2 hover:border-b-4 hover:border-televersantBlue transition-all duration-300 flex items-center justify-center h-full'>
                             <div>
-                                <div><img src={service.Image} alt="" /></div>
+                                <div className='bg-[#c8e2f7] mb-4 h-14 w-14 mx-auto rounded-tl-3xl rounded-br-3xl'><img src={service.Image} alt="" className='-ml-5' /></div>
+                                <h4 className='text-2xl font-bold text-DarkGray mb-2 px-2'>{service.title}</h4>
+                                <p className='text-sm text-lightGray'>{service.description}</p>
                             </div>
                         </div>)
                     }

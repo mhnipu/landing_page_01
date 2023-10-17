@@ -15,6 +15,9 @@ export default {
         'Secondary': '#ce00ec',
         'lightGray': '#717171',
         'gray900': '#18191f',
+        'televersantBlue': '#1a9ab8ff',        
+        'televersantDBlue': '#218ca2ff',        
+
       }
     },
   },

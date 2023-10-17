@@ -14,7 +14,7 @@ const Home = () => {
                         </div>
                         {/* hero text ==== */}
                         <div className='md:w-1/2'>
-                            <h1 className=' text-5xl font-semibold mb-4 text-naturalDGray md:w-3/4 leading-snug'>Lessons and insights <span className='text-Primary leading-snug hover:text-Secondary'>from 8 years</span></h1>
+                            <h1 className=' text-5xl font-semibold mb-4 text-naturalDGray md:w-3/4 leading-snug'>Lessons and insights <span className='text-televersantBlue leading-snug hover:text-televersantDBlue'>from 8 years</span></h1>
                             <p className='text-lightGray text-base mb-8'>Where to grow your business as a photographer: site or social media?</p>
                             <button className='btn-primary'>Register</button>
                         </div>
@@ -25,7 +25,7 @@ const Home = () => {
                         </div>
                         {/* hero text ==== */}
                         <div className='md:w-1/2'>
-                            <h1 className=' text-5xl font-semibold mb-4 text-naturalDGray md:w-3/4 leading-snug'>let`s Learn and Earn <span className='text-Primary leading-snug hover:text-Secondary'>in 4 Months</span></h1>
+                            <h1 className=' text-5xl font-semibold mb-4 text-naturalDGray md:w-3/4 leading-snug'>let`s Learn and Earn <span className='text-televersantBlue leading-snug hover:text-televersantDBlue'>in 4 Months</span></h1>
                             <p className='text-lightGray text-base mb-8'>Where to grow your business as a photographer: site or social media?</p>
                             <button className='btn-primary'>Register</button>
                         </div>
@@ -36,7 +36,7 @@ const Home = () => {
                         </div>
                         {/* hero text ==== */}
                         <div className='md:w-1/2'>
-                            <h1 className=' text-5xl font-semibold mb-4 text-naturalDGray md:w-3/4 leading-snug'>Lessons and insights <span className='text-Primary leading-snug hover:text-Secondary'>from 8 years</span></h1>
+                            <h1 className=' text-5xl font-semibold mb-4 text-naturalDGray md:w-3/4 leading-snug'>Lessons and insights <span className='text-televersantBlue leading-snug hover:text-televersantDBlue'>from 8 years</span></h1>
                             <p className='text-lightGray text-base mb-8'>Where to grow your business as a photographer: site or social media?</p>
                             <button className='btn-primary'>Register</button>
                         </div>

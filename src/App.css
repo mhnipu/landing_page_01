@@ -11,5 +11,5 @@ header {
 }
 
 .btn-primary {
-  @apply px-7 py-2 bg-Primary text-white rounded hover:bg-Secondary transition-all duration-300 hover:-translate-y-2;
+  @apply px-7 py-2 bg-televersantBlue text-white rounded hover:bg-televersantDBlue transition-all duration-300 hover:-translate-y-2;
 }
