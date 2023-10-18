@@ -1,6 +1,8 @@
 
 import './App.css'
 import About from './components/About'
+import Blogs from './components/Blogs'
+import MyFooter from './components/Footer/MyFooter'
 import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Products from './components/Products'
@@ -16,6 +18,8 @@ function App() {
       <Services />
       <About />
       <Products />
+      <Blogs />
+      <MyFooter />
     </>
   )
 }
